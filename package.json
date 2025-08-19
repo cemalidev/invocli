@@ -1,0 +1,36 @@
+{
+  "name": "@cemalidev/invocli",
+  "version": "1.0.0",
+  "description": "A Node.js CLI for generating professional PDF invoices.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "invocli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cemalidev/invocli.git"
+  },
+  "keywords": [
+    "invoice",
+    "cli",
+    "pdf",
+    "generator",
+    "invoicing"
+  ],
+  "author": "cemalidev <me@cemaligencer.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cemalidev/invocli/issues"
+  },
+  "homepage": "https://github.com/cemalidev/invocli#readme",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "dayjs": "^1.11.11",
+    "inquirer": "^9.2.23",
+    "puppeteer": "^22.12.1"
+  }
+}
