@@ -1,6 +1,6 @@
 {
   "name": "invocli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.js CLI for generating professional PDF invoices.",
   "main": "index.js",
   "type": "module",
