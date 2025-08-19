@@ -23,13 +23,13 @@ function getHTML(data) {
   const grossSubtotal = items.reduce((acc, item) => acc + (item.quantity * item.rate), 0);
   
   if (taxType === 'inclusive') {
-    // Prices include tax. We need to extract the tax amount.
-    discountAmount = grossSubtotal * discount;
-    const discountedTotal = grossSubtotal - discountAmount;
-    subtotal = discountedTotal / (1 + tax);
-    taxAmount = discountedTotal - subtotal;
-    total = discountedTotal;
-    netSubtotal = subtotal; // For display, net subtotal is the pre-tax amount
+    // Refined logic: Calculate discount on the pre-tax amount for consistency.
+    const preTaxSubtotal = grossSubtotal / (1 + tax);
+    discountAmount = preTaxSubtotal * discount;
+    total = grossSubtotal - discountAmount;
+    subtotal = total / (1 + tax);
+    taxAmount = total - subtotal;
+    netSubtotal = subtotal; // For display purposes
   } else { // 'exclusive'
     // Prices do not include tax. We add tax on top.
     subtotal = grossSubtotal;

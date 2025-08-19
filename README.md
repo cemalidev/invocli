@@ -13,7 +13,7 @@
     The definitive command-line tool for fast, flexible, and automated PDF invoicing.
     <br/>
     <br/>
-    <a href="https://www.npmjs.com/package/@cemalidev/invocli"><strong>Explore the NPM Package »</strong></a>
+    <a href="https://www.npmjs.com/package/invocli"><strong>Explore the NPM Package »</strong></a>
     <br/>
     <br/>
     <a href="https://github.com/cemalidev/invocli/issues">Report Bug</a>
@@ -22,9 +22,9 @@
   </p>
 </p>
 
-[![NPM Version](https://img.shields.io/npm/v/@cemalidev/invocli.svg)](https://www.npmjs.com/package/@cemalidev/invocli)
+[![NPM Version](https://img.shields.io/npm/v/invocli.svg)](https://www.npmjs.com/package/invocli)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Node.js Version](https://img.shields.io/node/v/@cemalidev/invocli.svg)](https://nodejs.org/)
+[![Node.js Version](https://img.shields.io/node/v/invocli.svg)](https://nodejs.org/)
 
 ---
 
@@ -53,7 +53,7 @@ InvoCLI empowers developers, freelancers, and small businesses to manage the ent
 Install InvoCLI globally using npm:
 
 ```bash
-npm install -g @cemalidev/invocli
+npm install -g invocli
 ```
 
 ## 🚀 Getting Started: Your First Invoice in 3 Steps

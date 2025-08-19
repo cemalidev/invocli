@@ -1,5 +1,5 @@
 {
-  "name": "@cemalidev/invocli",
+  "name": "invocli",
   "version": "1.0.0",
   "description": "A Node.js CLI for generating professional PDF invoices.",
   "main": "index.js",
